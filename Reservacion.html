@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Reservacion</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script src="TuReserva.js"></script>
+  </head>
+  <body>
+    <h1>Bienvenido a la pagina de reservas del Hotel "La Parada"</h1>
+
+    <p>Desde esta pagina puede gestionar con total comodidad su reseva.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Tipo de Habitación</th>
+          <th>No. Personas</th>
+          <th>Precio/Noche</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Doble</td>
+          <td>2</td>
+          <td>57 €</td>
+        </tr>
+        <tr>
+          <td>Triple</td>
+          <td>3</td>
+          <td>81 €</td>
+        </tr>
+        <tr>
+          <td>Suite</td>
+          <td>2</td>
+          <td>125 €</td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <form>
+        <fieldset1>
+            <legend>Hotel La Parada</legend>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" required />
+           
+            <label for="Apellidos">Apellidos</label>
+            <input type="text" id="Apellidos" name="Apellidos" required />
+            <br />
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <br>
+      
+            <label for="DiadeEntrada">Fecha de entrada:</label>
+            <input type="datetime-local" id="DiadeEntrada" name="DiadeEntrada" required/>
+           
+            <label for="DiadeSalida">Fecha de Salida:</label>
+            <input type="datetime-local" id="DiadeSalida" name="DiadeSalida" required />
+      
+            <h4>Tipo de Habitación</h4>
+            <input type="checkbox" id="Doble" name="Doble" value="Doble" />
+            <label for="Doble">Doble</label>
+      
+            <input type="checkbox" id="Triple" name="Triple" value="Triple" />
+            <label for="Triple">Triple</label>
+      
+            <input type="checkbox" id="Suite" name="Suite" value="Suite" />
+            <label for="Suite">Suite</label>
+      
+            <h4>Extras Opcionales:</h4>
+      
+            <input type="checkbox" id="Extra1" name="Extra1" value="Extra 1" />
+            <label for="opcion1">Incluir Desayuno (+12 usd/Dia)</label>
+            <br />
+            <input type="checkbox" id="Extra2" name="Extra2" value="Extra 2" />
+            <label for="opcion2">Parking Subterreano (+13 usd/Dia)</label>
+      <br>
+      <br>
+            <input type="submit" value="Enviar" />
+        </fieldset>
+      
+    </form>
+
+    <br>
+
+    <table>
+      <tr>
+        <th>Encabezado de columna 1</th>
+        <th>Encabezado de columna 2</th>
+      </tr>
+      <tr>
+        <td>Dato 1</td>
+        <td>Dato 2</td>
+      </tr>
+      <tr>
+        <td>Dato 3</td>
+        <td>Dato 4</td>
+      </tr>
+    </table>
+  </body>
+</html>

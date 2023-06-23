@@ -1,0 +1,42 @@
+.btn-reserva {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute;
+  top: 2% ;
+  left: 1550px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #064d8f75;
+    
+  }
+  th {
+    background-color: #004781;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+
+    font-family: Arial, sans-serif;
+   
+  }
+
+ h1 {
+  text-align: center;
+ }
+
+ 
